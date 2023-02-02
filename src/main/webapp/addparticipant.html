@@ -16,8 +16,19 @@
 			</div>
 		</div>
 	</nav>
-	<div style="display: flex; align-items: center; justify-content: center; height: 90vh;">
+	<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 90vh;">
+		<form style="display: flex; flex-direction: column;">
 		<h1>Add Participant</h1>
+		<label style="padding-top: 3%;">First Name: </label>
+			<input type="text" name="firstName">
+		<label style="padding-top: 10%;">Last Name: </label>
+			<input type="text" name="lastName">
+		<label style="padding-top: 10%;">Email: </label>
+			<input type="email" name="email">
+		<label style="padding-top: 10%;">Phone: </label>
+			<input type="tel" name="phoneNumber">
+		<input style="margin-top: 10%;" type="submit"></input>
+		</form>
 	</div>
 </body>
 </html>
