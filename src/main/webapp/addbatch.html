@@ -16,8 +16,21 @@
 			</div>
 		</div>
 	</nav>
-	<div style="display: flex; align-items: center; justify-content: center; height: 90vh;">
+	<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 90vh;">
+		<form style="display: flex; flex-direction: column;">
 		<h1>Add Batch</h1>
+		<label style="padding-top: 3%;">Batch Date: </label>
+			<input type="date" name="batchDate">
+		<label style="padding-top: 10%;">Batch Time: </label>
+			<select id="time" name="time">
+			  <option value="9AM">9AM</option>
+			  <option value="11AM">11AM</option>
+			  <option value="1PM">1PM</option>
+			  <option value="3PM">3PM</option>
+			  <option value="5PM">5PM</option>
+			</select>
+		<input style="margin-top: 10%;" type="submit"></input>
+		</form>
 	</div>
 </body>
 </html>
